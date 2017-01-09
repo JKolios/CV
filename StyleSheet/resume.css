@@ -43,16 +43,19 @@ a{text-decoration: none;}
 a#pdf { display: block; float: left; background: #666; color: white; padding: 6px 50px 6px 12px; margin-bottom: 6px; text-decoration: none;}
 a#pdf:hover { background: #222; }
 
-.job { position: relative; margin-bottom: 0em; padding-bottom: 0em; border-bottom: 1px solid #ccc;margin-top: 0.8em;;margin-bottom: 0.2em; }
-.job h2 {margin-bottom: 0.2em;}
-.job h3 {margin-top: 0.3em;margin-bottom: 0.2em;}
-.job h4 { position: absolute; top: 0.35em; right: 0 }
+.job { position: relative; margin-bottom: 0em; padding-bottom: 0em; border-bottom: 1px solid #ccc;margin-bottom: 0.2em; }
 .job div.last { position: relative; margin-bottom: 0em; padding-bottom: 0em; border-bottom: 0px solid #ccc; }
 
+.job .employer {margin-bottom: 0.2em;}
+/*.job .first {margin-top: 0.8em;}*/
+.job .title {margin-top: 0.4em;margin-bottom: 0.3em;}
+.job .location {margin-top: 0.4em;margin-bottom: 0.3em;}
+.job .timestamp {position: absolute; top: 0.35em; right: 0;}
 .job.last{margin-bottom: 0.4em;}
 
-.job-description {margin: 0.6em 0 0.8em 0;}
+.job ul li{font-size: 115%;line-height: 20px;padding-right: 3em; list-style-type: disc; margin-bottom: 0.2em;}
 
+.job-description {margin: 1em 0 0.8em 1.6em;}
 .last { border: none; }
 .skills-list {  }
 .skills-list ul { margin: 0; }
